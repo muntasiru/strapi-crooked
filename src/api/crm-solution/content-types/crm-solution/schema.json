@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crm_solutions",
+  "info": {
+    "singularName": "crm-solution",
+    "pluralName": "crm-solutions",
+    "displayName": "CRM Solution"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

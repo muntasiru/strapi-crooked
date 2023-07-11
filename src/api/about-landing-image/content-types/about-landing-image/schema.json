@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_landing_images",
+  "info": {
+    "singularName": "about-landing-image",
+    "pluralName": "about-landing-images",
+    "displayName": "About Landing Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "landing_about": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::landing-about.landing-about",
+      "inversedBy": "about_landing_images"
+    }
+  }
+}
