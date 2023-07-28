@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "blog"
+    "displayName": "blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,21 @@
     },
     "shortDetails": {
       "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "category": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
     }
   }
 }
