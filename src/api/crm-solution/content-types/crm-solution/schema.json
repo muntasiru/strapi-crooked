@@ -4,7 +4,8 @@
   "info": {
     "singularName": "crm-solution",
     "pluralName": "crm-solutions",
-    "displayName": "CRM Solution"
+    "displayName": "CRM Solution",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +15,8 @@
     "title": {
       "type": "string"
     },
-    "subtitle": {
-      "type": "string"
+    "details": {
+      "type": "text"
     }
   }
 }
